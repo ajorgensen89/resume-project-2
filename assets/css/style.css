@@ -29,27 +29,26 @@
 
 /*----------------------------------------------------------------Special text and headings--*/
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
     margin: 0;
 
 }
 
 .uppercase {
-text-transform: uppercase;
+    text-transform: uppercase;
 }
 
 .general-sub {
-font-family: "Exo", sans-serif;
-font-weight: 300;
-color: #c0e4d3;
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    color: #c0e4d3;
 }
 
 .inline-block {
     display: inline-block;
-}
-
-.row-table {
-    display: table;
 }
 
 .section-column {
@@ -156,8 +155,8 @@ header {
 /*----------------------------------------------------------------Hover.css--*/
 
 .hvr-sweep-to-bottom:before {
-background: rgba(0, 0, 0, 0.2);
-height: 120px;
+    background: rgba(0, 0, 0, 0.2);
+    height: 120px;
 }
 
 /*----------------------------------------------------------------Footer--*/
@@ -210,4 +209,15 @@ footer {
 
 #footer-details {
     padding: 20px;
+}
+
+/*----------------------------------------------------------------Three Reasons--*/
+
+.three-reasons-icon {
+    font-size: 26px;
+    color: #09ad61;
+}
+
+.three-reasons-heading {
+    margin-bottom: 15px;
 }
